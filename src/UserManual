@@ -1,5 +1,18 @@
-Before running the Main class, please, set the following Environment Variables, in your System:
-1.)MySql User name as "sqlUsername".
-2.)MySql Password as "sqlPassword".
-3.)MySql Driver class as "sqlDriverclass".
-4.)MySql Database name as "sqlDatabase".
+Proceed with the following instructions, before, writing the java packages and java classes. 
+===============================================================================================
+1)You need to have Mysql and JDK installed in your System, first, and then, set the respective Environment
+  in your System.
+2)In command prompt, do the following steps:
+---------------------------------------------
+CLI>mysql -u <Mysql-username> -p
+o/p:password:<Mysql-password>
+mysql>create database <database-name>
+mysql>use <database-name>
+mysql>create table <table-Name> (student_Id int, department varchar(255), first_Name varchar(255), last_Name varchar(255), passOutYear int, universityRank int);
+3.)Before running the Main class, please, set the following Environment Variables, in your System:
+-----------------------------------------------------------------------------------------------------
+a.)MySql User name as "sqlUsername".
+b.)MySql Password as "sqlPassword".
+c.)MySql Driver class as "sqlDriverclass".
+d.)MySql Database name as "sqlDatabase".
+e.)MySql Table name as "tableName"
